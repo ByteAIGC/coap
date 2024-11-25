@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <!-- Meta tags for social media banners, these should be filled in appropriatly as they are your "business card" -->
+  <!-- Replace the content tag with appropriate information -->
+  <meta name="description" content="COAP">
+  <meta property="og:title" content="COAP"/>
+  <meta property="og:description" content="MEMORY-EFFICIENT OPTIMIZER"/>
+  <meta property="og:url" content="URL OF THE WEBSITE"/>
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X630-->
+  <meta property="og:image" content="static/image/your_banner_image.png" />
+  <meta property="og:image:width" content="1200"/>
+  <meta property="og:image:height" content="630"/>
+
+
+  <meta name="twitter:title" content="COAP">
+  <meta name="twitter:description" content="MEMORY-EFFICIENT OPTIMIZER">
+  <!-- Path to banner image, should be in the path listed below. Optimal dimenssions are 1200X600-->
+  <meta name="twitter:image" content="static/images/your_twitter_banner_image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Keywords for your paper to be indexed by-->
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <title>COAP</title>
+  <link rel="icon" type="image/x-icon" href="static/images/favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
+  rel="stylesheet">
+
+  <link rel="stylesheet" href="static/css/bulma.min.css">
+  <link rel="stylesheet" href="static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="static/css/fontawesome.all.min.css">
+  <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="static/css/index.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
+  <script defer src="static/js/fontawesome.all.min.js"></script>
+  <script src="static/js/bulma-carousel.min.js"></script>
+  <script src="static/js/bulma-slider.min.js"></script>
+  <script src="static/js/index.js"></script>
+</head>
+
+
+<body>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-2 publication-title">COAP: Memory-Efficient Training with Correlation-Aware Gradient Projection</h1>
+              <div class="is-size-5 publication-authors">
+              <!-- Paper authors -->
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=ITSm2LYAAAAJ&hl=en" target="_blank">Jinqi Xiao</a><sup>1,2,*</sup>,</span>
+              <span class="author-block">
+                <a href="https://ssangx.github.io" target="_blank">Shen Sang</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://tiancheng-zhi.github.io" target="_blank">Tiancheng Zhi</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://www.jingliu.net" target="_blank">Jing Liu</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=0TIYjPAAAAAJ&hl=en" target="_blank">Qing Yan</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://scholar.google.com/citations?user=fqubyX0AAAAJ&hl=en" target="_blank">Linjie Luo</a><sup>1</sup>,</span>
+              <span class="author-block">
+                <a href="https://sites.google.com/site/boyuaneecs" target="_blank">Bo Yuan</a><sup>2</sup></span>
+              </div>
+
+              <div class="is-size-5 publication-authors">
+                <span class="author-block"><sup>1</sup>ByteDance, <sup>2</sup>Rutgers University</span>
+                <span class="eql-cntrb"><small><br><sup>*</sup>Work done during internship at ByteDance</small></span>
+              </div>
+
+              <div class="column has-text-centered">
+                <div class="publication-links">
+                      <!-- Arxiv PDF link -->
+                  <span class="link-block">
+                    <a href="https://arxiv.org/pdf/<TBD>.pdf" target="_blank"
+                    class="external-link button is-normal is-rounded is-dark">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+
+                <!-- Supplementary PDF link
+                <span class="link-block">
+                  <a href="static/pdfs/supplementary_material.pdf" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fas fa-file-pdf"></i>
+                  </span>
+                  <span>Supplementary</span>
+                  </a>
+                </span> -->
+
+                <!-- Github link -->
+                <span class="link-block">
+                  <a href="https://github.com/YOUR REPO HERE" target="_blank" 
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span>Code</span>
+                  </a>
+                </span>
+
+                <!-- ArXiv abstract Link -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/<ARXIV PAPER ID>" target="_blank"
+                  class="external-link button is-normal is-rounded is-dark">
+                  <span class="icon">
+                    <i class="ai ai-arxiv"></i>
+                  </span>
+                  <span>arXiv</span>
+                  </a>
+                </span>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Teaser video-->
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+        <img src="static/images/overview.png" />
+        <h2 class="content has-text-centered">
+          Comparison between COAP and other low-rank-based methods. The X-axis shows additional training time, with lower values being better. The Y-axis shows quantitative (e.g., FID, PPL) changes compared to the original optimizer (e.g., Adam, Adafactor) with higher values indicating better performance. 
+        </h2>
+      </div>
+    </div>
+  </section>
+  <!-- End teaser video -->
+
+
+  <!-- Paper abstract -->
+  <section class="section hero is-light">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered has-text-centered">
+        <div class="column is-four-fifths">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            <p>
+              Training large-scale neural networks in vision, and multimodal domains demands substantial memory resources, primarily due to the storage of optimizer states. While LoRA, a popular parameter-efficient method, reduces memory usage, it often suffers from suboptimal performance due to the constraints of low-rank updates. Low-rank gradient projection methods (e.g., GaLore, Flora) reduce optimizer memory by projecting gradients and moment estimates into low-rank spaces via singular value decomposition or random projection. However, they fail to account for inter-projection correlation, causing performance degradation, and their projection strategies often incur high computational costs. In this paper, we present <b>COAP</b> (<b><u>CO</u></b>rrelation-<b><u>A</u></b>ware Gradient <b><u>P</u></b>rojection), a memory-efficient method that minimizes computational overhead while maintaining training performance. Evaluated across various vision, language, and multimodal tasks, COAP outperforms existing methods in both training speed and model performance. For LLaMA-1B, it reduces optimizer memory by 61% with only 2% additional time cost, achieving the same PPL as AdamW. With 8-bit quantization, COAP cuts optimizer memory by 81% and achieves 4x speedup over GaLore for LLaVA-v1.5-7B fine-tuning, while delivering higher accuracy.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End paper abstract -->
+
+
+  <!-- Image carousel -->
+  <section class="hero is-smalls">
+    <div class="hero-body">
+      <div class="container">
+        <div class="column has-text-centered">
+        <h2 class="title is-3">Qualitative Comparisons</h2>
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/res-ddpm-cifar10.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Images generated by DDPM trained on CIFAR-10 with different Adam-based optimizers.
+              </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/res-ddpm-celebahq.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Images generated by DDPM trained on CelebA-HQ with different Adafactor-based optimizers.
+              </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/res-ldm-imagenet.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Random class-conditional samples generated by LDM trained on the ImageNet dataset using the COAP optimizer.
+              </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/res-sit-imagenet.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Random class-conditional samples generated by SiT-XL/2 trained on the ImageNet dataset using the COAP optimizer.
+              </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/res-controlnetxl-pose-1.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Images generated at different training steps with ControlNet-XL trained under various optimizers (1).
+              </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/res-controlnetxl-pose-2.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Images generated at different training steps with ControlNet-XL trained under various optimizers (2).
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End image carousel -->
+
+
+  <!-- Image carousel -->
+  <section class="hero is-small">
+    <div class="hero-body">
+      <div class="container">
+        <div class="column has-text-centered">
+        <h2 class="title is-3">Quantitative Comparisons</h2>
+          <div id="results-carousel" class="carousel results-carousel">
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/fig-ddpm.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Pre-training DDPM on CIFAR-10 and CelebA-HQ datasets using 8xV100.
+              </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/fig-ldm.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Pre-training LDM on the ImageNet-1K dataset using 8xV100.
+              </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/fig-sit.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Pre-training SiT-XL/2 with REPA on the ImageNet-1K dataset using 8xH100.
+            </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/fig-cnxl-pose.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Pre-Training ControlNet-XL with pose control using 8xH100.
+              </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/fig-llama.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Pre-training LLaMA-1B and LLaMA-7B on the C4 dataset using 8xH100.
+              </h2>
+            </div>
+            <div class="item">
+              <!-- Your image here -->
+              <img src="static/images/fig-llava.png" alt="MY ALT TEXT"/>
+              <h2 class="subtitle has-text-centered">
+                Fine-tuning LLaVA-v1.5-7B on the ScienceQA dataset using 1xA100.
+              </h2>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- End image carousel -->
+
+
+<!--BibTex citation -->
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{xiao2024coap,
+    title={COAP: Memory-Efficient Training with Correlation-Aware Gradient Projection},
+    author={Xiao, Jinqi and Sang, Shen and Zhi, Tiancheng and Liu, Jing and Yan, Qing and Luo, Linjie and Yuan, Bo},
+    journal={arXiv preprint TBD},
+    year={2024}
+}</code></pre>
+    </div>
+</section>
+<!--End BibTex citation -->
+
+
+  <footer class="footer">
+  <div class="container">
+    <div class="columns is-centered">
+      <div class="column is-8">
+        <div class="content">
+
+          <p>
+            This page was built using the <a href="https://github.com/eliahuhorwitz/Academic-project-page-template" target="_blank">Academic Project Page Template</a> which was adopted from the <a href="https://nerfies.github.io" target="_blank">Nerfies</a> project page.
+            You are free to borrow the source code of this website, we just ask that you link back to this page in the footer. <br> This website is licensed under a <a rel="license"  href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Creative
+            Commons Attribution-ShareAlike 4.0 International License</a>.
+          </p>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  </footer>
+
+<!-- Statcounter tracking code -->
+  
+<!-- You can add a tracker to track page visits by creating an account at statcounter.com -->
+
+    <!-- End of Statcounter Code -->
+
+</body>
+
+</html>
